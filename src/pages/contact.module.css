@@ -1,0 +1,77 @@
+.container {
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.formContainer {
+  width: 90%;
+  max-width: 500px;
+  min-width: 250px;
+}
+
+.hide {
+  display: none;
+  border: none;
+}
+
+.form {
+  width: 100%;
+}
+
+.form label,
+.label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form input,
+.form textarea {
+  padding: 10px 10px;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form input:invalid,
+form textarea:invalid {
+  box-shadow: #3a9cff 0px 0px 1.5px 1px;
+}
+
+.form input:focus,
+.form textarea:focus {
+  box-shadow: #aaff3a 0px 0px 1.5px 1px;
+  background: #fff;
+  outline: none;
+}
+
+.form input:valid {
+  background: #fff;
+  box-shadow: none;
+}
+
+.actions {
+  display: flex;
+  flex: 1 1 100px;
+}
+
+.submit {
+  cursor: pointer;
+}
+
+.form .submit:active {
+  background: #eeeeee;
+}
+
+.contactInfo {
+  padding: 0 30px;
+}
+
+.contactInfo a {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #3a9cff;
+}

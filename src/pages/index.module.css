@@ -1,0 +1,30 @@
+.title {
+  font-size: calc(2em + 1vw);
+  color: #222222;
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+.pad {
+  margin-top: 120px;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.topImage {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+}
+
+.bottomImage {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  transform: translateX(-30%) rotateZ(180deg);
+  z-index: -1;
+}

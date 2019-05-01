@@ -1,0 +1,38 @@
+.Review {
+  border-radius: 2px;
+  padding: 30px;
+  display: grid;
+  height: 100%;
+  box-sizing: border-box;
+  background: #ffffff;
+  grid-template-columns: 64px 3fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    'qoute .'
+    'text text'
+    'image name';
+}
+
+.text {
+  grid-area: text;
+  padding: 30px 0;
+  font-size: 0.9em;
+  line-height: 1.4em;
+  color: #828282;
+}
+
+.qoute {
+  grid-area: qoute;
+}
+
+.image {
+  grid-area: image;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.name {
+  align-self: center;
+  grid-area: name;
+  margin-left: 10px;
+}

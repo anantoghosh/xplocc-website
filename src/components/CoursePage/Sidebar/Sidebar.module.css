@@ -1,0 +1,36 @@
+.Sidebar {
+  color: #fff;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  clip-path: polygon(0 0, 98% 0, 78% 84%, 0% 100%);
+  padding-bottom: 100px;
+  background: #3f72f5;
+}
+
+.heading {
+  font-size: 2em;
+  background: #be4395;
+  padding: 18px 20px;
+  margin: 0;
+}
+
+.item {
+  font-size: 1.2em;
+}
+
+.item:hover {
+  background: #222;
+}
+
+.active {
+  background: #0042ba;
+}
+
+.link {
+  padding: 12px 25px;
+  display: block;
+  color: #fff;
+}

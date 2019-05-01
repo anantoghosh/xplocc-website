@@ -1,0 +1,49 @@
+.Quote {
+  display: grid;
+  height: 100%;
+  grid-template-columns: min-content 1fr 96px 50px;
+  grid-template-rows: 1fr 64px 32px;
+  grid-template-areas:
+    'quote text text .'
+    'quote name image .'
+    '. . image .';
+
+  color: #fff;
+}
+
+.quote {
+  grid-area: quote;
+  align-self: center;
+  justify-self: center;
+  margin-left: 50px;
+  width: 64px;
+}
+
+.image {
+  grid-area: image;
+  align-self: center;
+  justify-self: stretch;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.name {
+  grid-area: name;
+  align-self: end;
+  justify-self: end;
+  padding: 14px;
+  font-size: 0.9em;
+}
+
+.text {
+  grid-area: text;
+  text-align: center;
+  padding: 40px 5% 0;
+  font-size: 1.2em;
+  line-height: 1.3em;
+}
+
+.background {
+  grid-area: 1 / 1 / -2 / -1;
+  background: #454555;
+}

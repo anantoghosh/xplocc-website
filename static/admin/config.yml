@@ -1,0 +1,76 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+media_folder: static/img
+public_folder: /img
+
+logo_url: https://xplocc.netlify.com/xplocc_logo_black.svg
+
+collections:
+  - name: 'courses'
+    label: 'Course'
+    folder: 'src/courses'
+    create: true
+    fields:
+      - { label: 'title', name: 'title', widget: 'string' }
+      - label: 'Branch'
+        name: 'branch'
+        widget: 'select'
+        options:
+          [
+            'chemical-engineering',
+            'mechanical-engineering',
+            'electrical-engineering',
+            'computer-science',
+            'civil-engineering',
+            'architecture',
+            'techno-mathematics',
+            'piping-engineering',
+            'data-science',
+            'hardware-technologies',
+            'cloud-technologies',
+            'server-technologies',
+          ]
+
+      - label: 'slug'
+        name: 'slug'
+        widget: 'string'
+        hint: 'slug is what appears in the url, eg: course/computer-science/this_is_the_slug. Branch + slug should be unique.'
+      - label: 'type'
+        name: 'type'
+        widget: 'select'
+        options: ['course']
+        default: 'course'
+      - {
+          label: 'code',
+          name: 'code',
+          widget: 'string',
+          required: false,
+          default: '',
+        }
+      - {
+          label: 'duration',
+          name: 'duration',
+          widget: 'string',
+          required: false,
+          default: '',
+        }
+      - label: 'image'
+        name: 'image'
+        widget: 'string'
+        default: '../img/courses/default.jpg'
+        pattern:
+          [
+            "^\\.\\.\/img\/courses\/",
+            'This must start with ../img/courses/, eg: ../img/courses/myfile.jpg',
+          ]
+        hint: 'Path to image, must start with ../img/courses/, add Images separately via git, DO NOT upload it here directly (ask Ananto)'
+      - {
+          label: 'file',
+          name: 'file',
+          widget: 'string',
+          required: false,
+          default: '',
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

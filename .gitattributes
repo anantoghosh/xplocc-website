@@ -1,0 +1,2 @@
+* text=auto eol=lf
+*.jpg[[:space:]]*.png[[:space:]]*.svg[[:space:]]*.gif[[:space:]]*.jpeg[[:space:]]*.webp[[:space:]]*.pdf text !filter !merge !diff

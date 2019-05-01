@@ -1,0 +1,16 @@
+.Map {
+  align-self: stretch;
+  justify-self: stretch;
+  flex: 1 1 50%;
+  position: relative;
+  min-width: 320px;
+  min-height: 300px;
+}
+
+.Map iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}

@@ -1,0 +1,35 @@
+.Banner {
+  position: relative;
+  background: #be4395;
+  color: #fff;
+  display: grid;
+  height: 100%;
+  grid-template-columns: 2fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    'title title ink'
+    '. . ink';
+}
+
+.ink {
+}
+
+.inkContainer {
+  grid-area: ink;
+}
+
+.button {
+  background: #f80049;
+  grid-column: 1 / -1;
+  grid-row: 2 / 3;
+  align-self: center;
+  justify-self: center;
+}
+
+.title {
+  font-size: 2em;
+  grid-area: title;
+  align-self: center;
+  padding-left: 20px;
+  margin: 20px;
+}

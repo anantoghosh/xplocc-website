@@ -1,0 +1,36 @@
+.CoursePage {
+  display: grid;
+  height: 100%;
+  grid-template-columns: minmax(max-content, 300px) 1fr;
+  grid-template-rows: max-content minmax(300px, 1fr);
+  grid-template-areas:
+    'sidebar content'
+    'title content';
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.sideHeaderContainer {
+  grid-area: title;
+  position: relative;
+  width: 40px;
+  justify-self: end;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 3em;
+  transform: translateY(-100%) rotateZ(-90deg);
+  transform-origin: 100% 100%;
+  white-space: nowrap;
+}
+
+.content {
+  grid-area: content;
+  align-self: flex-start;
+  padding: 40px;
+}

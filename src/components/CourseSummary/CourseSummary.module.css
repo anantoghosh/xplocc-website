@@ -1,0 +1,40 @@
+.CourseSummary {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 300px 1fr max-content;
+  grid-template-rows: 80px 120px;
+  color: #fff;
+  background: #454555;
+  grid-template-areas:
+    'image title button'
+    'image text text';
+  margin-bottom: 40px;
+}
+
+.image {
+  grid-area: image;
+}
+
+.text {
+  grid-area: text;
+  margin-left: 30px;
+  line-height: 1.4em;
+  margin-right: 30px;
+  font-size: 1em;
+}
+
+.title {
+  grid-area: title;
+  font-size: 1.5em;
+  margin-left: 30px;
+}
+
+.button {
+  grid-area: button;
+  background: #3f72f5;
+  padding: 15px 40px 15px 100px;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 20% 100%);
+  align-self: start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}

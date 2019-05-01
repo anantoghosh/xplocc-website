@@ -1,0 +1,6 @@
+export { default as Hero } from './Hero'
+export { default as PopularCourses } from './PopularCourses'
+export { default as Branches } from './Branches'
+export { default as Quote } from './Quote'
+export { default as Reviews } from './Reviews'
+export { default as Banner } from './Banner'
