@@ -6,7 +6,7 @@
   "private": true,
   "license": "SEE LICENSE IN LICENSE.md",
   "dependencies": {
-    "autoprefixer": "^9.1.5",
+    "autoprefixer": "^9.5.1",
     "gatsby": "^2.0.3",
     "gatsby-image": "^2.0.5",
     "gatsby-plugin-manifest": "^2.0.2",
@@ -23,11 +23,11 @@
     "gatsby-source-filesystem": "^2.0.1",
     "gatsby-transformer-sharp": "^2.1.1",
     "netlify-cms": "^2.9.1",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-helmet": "^5.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
     "react-obfuscate": "^3.6.2",
-    "size-plugin": "^1.0.0"
+    "size-plugin": "^1.2.0"
   },
   "keywords": [
     "gatsby"
@@ -43,19 +43,19 @@
     "deploy": "yarn build && netlify deploy"
   },
   "devDependencies": {
-    "@types/react-helmet": "^5.0.7",
-    "@types/webpack": "^4.4.11",
-    "eslint": "^5.4.0",
+    "@types/react-helmet": "^5.0.8",
+    "@types/webpack": "^4.4.29",
+    "eslint": "^5.16.0",
     "eslint-config-prettier": "^3.0.1",
     "eslint-config-problems": "^1.1.0",
-    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react": "^7.12.4",
     "gatsby-transformer-remark": "^2.1.3",
     "husky": "^1.0.0-rc.13",
     "lint-staged": "^7.2.2",
-    "plop": "^2.0.0",
-    "prettier": "^1.14.2",
-    "typed-css-modules-loader": "^0.0.14",
-    "typescript": "^3.0.3",
+    "plop": "^2.3.0",
+    "prettier": "^1.17.0",
+    "typed-css-modules-loader": "^0.0.17",
+    "typescript": "^3.4.5",
     "webpack-bundle-size-analyzer": "^2.7.0"
   },
   "husky": {
