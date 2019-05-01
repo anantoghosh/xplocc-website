@@ -1,11 +1,12 @@
 ---
 title: Solidworks
+branch: mechanical-engineering
 slug: solidworks
 type: course
-branch: mechanical-engineering
 code: CAD2ME
 duration: '80'
-image: ../img/courses/python2.jpg
-file: a
+image: /image/default.jpg
+file: ''
 ---
+
 This is Solid works

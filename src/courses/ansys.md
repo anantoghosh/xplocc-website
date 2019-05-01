@@ -1,10 +1,12 @@
 ---
-title: "Ansys Fluent"
-slug: "ansys-fluent"
-type: "course"
-branch: "chemical-engineering"
-duration: "90"
-image: "../img/courses/placeholder.jpg"
+title: Ansys Fluent
+branch: chemical-engineering
+slug: ansys-fluent
+type: course
+code: ''
+duration: '90'
+image: /images/default.jpg
+file: ''
 ---
 
 This is Ansys Fluent

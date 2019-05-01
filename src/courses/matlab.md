@@ -1,10 +1,12 @@
 ---
-title: "Matlab"
-slug: "matlab"
-type: "course"
-branch: "computer-science"
-duration: "90"
-image: "../img/courses/placeholder.jpg"
+title: Matlab
+branch: computer-science
+slug: matlab
+type: course
+code: ''
+duration: '90'
+image: /images/default.jpg
+file: ''
 ---
 
 This is Matlab

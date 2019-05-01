@@ -1,11 +1,11 @@
 ---
-title: 'Python'
-slug: 'python'
-type: 'course'
-branch: 'computer-science'
-code: 'PY50CS'
+title: Python
+branch: computer-science
+slug: python
+type: course
+code: PY50CS
 duration: '40'
-image: '../img/courses/python2.jpg'
+image: /images/python.jpg
 file: ''
 ---
 
