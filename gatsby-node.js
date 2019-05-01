@@ -1,5 +1,6 @@
 // @ts-check
 const path = require(`path`)
+const { fmImagesToRelative } = require('gatsby-remark-relative-images');
 
 /**
  * @typedef {import('webpack').Configuration} WebpackConfig
@@ -20,11 +21,9 @@ exports.onCreateWebpackConfig = ({ getConfig }) => {
     }
 }
 
-exports.onCreateNode = ({ node, getNode, actions }) => {
-  const { createNodeField } = actions
-  if (node.internal.type === `MarkdownRemark`) {
-  }
-}
+exports.onCreateNode = ({ node }) => {
+  fmImagesToRelative(node);
+};
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions

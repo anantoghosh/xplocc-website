@@ -12,8 +12,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-typed-css-modules`,
       options: {
-        EOL: '\n'
-      }
+        EOL: '\n',
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `uploads`,
+        path: `${__dirname}/static/images/`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -36,7 +43,28 @@ module.exports = {
         name: 'markdown-pages',
       },
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-relative-images',
+            options: {
+              name: 'uploads',
+            },
+          },
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 1024,
+            },
+          },
+        ],
+      },
+    },
     'gatsby-plugin-react-helmet',
     // `gatsby-plugin-react-next`,
     // 'gatsby-plugin-preact',
