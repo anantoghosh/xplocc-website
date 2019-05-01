@@ -5,7 +5,7 @@ slug: solidworks
 type: course
 code: CAD2ME
 duration: '80'
-image: /image/default.jpg
+image: /img/solidworks.jpg
 file: ''
 ---
 
