@@ -58,14 +58,8 @@ collections:
         }
       - label: 'image'
         name: 'image'
-        widget: 'string'
-        default: '../img/courses/default.jpg'
-        pattern:
-          [
-            "^\\.\\.\/img\/courses\/",
-            'This must start with ../img/courses/, eg: ../img/courses/myfile.jpg',
-          ]
-        hint: 'Path to image, must start with ../img/courses/, add Images separately via git, DO NOT upload it here directly (ask Ananto)'
+        widget: 'image'
+        default: '/images/default.jpg'
       - {
           label: 'file',
           name: 'file',
