@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from 'components/Layout'
 import { graphql } from 'gatsby'
 import CoursePage from 'components/CoursePage'
+import { isArray } from 'util'
 
 // import styles from './BranchPage.module.css'
 
@@ -9,7 +10,7 @@ const BranchPage = ({ data }) => {
   const courses = data.allMarkdownRemark ? data.allMarkdownRemark.edges : null
   return (
     <Layout>
-      {courses ? (
+      {isArray(courses) && courses.length ? (
         <CoursePage
           courses={courses}
           active={courses[0].node.frontmatter.branch}
