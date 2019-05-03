@@ -40,7 +40,8 @@
     "lint-fix": "eslint src/**/*.{js,jsx} --fix",
     "typecheck": "tsc -p jsconfig.json",
     "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
-    "deploy": "yarn build && netlify deploy"
+    "deploy": "yarn build && netlify deploy",
+    "clean": "gatsby clean"
   },
   "devDependencies": {
     "@types/react-helmet": "^5.0.8",
