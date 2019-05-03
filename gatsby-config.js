@@ -1,14 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Xplocc Technologies',
   },
   plugins: [
-    // {
-    //   resolve: 'gatsby-plugin-webpack-bundle-analyzer',
-    //   options: {
-    //     production: true,
-    //   },
-    // },
     {
       resolve: `gatsby-plugin-typed-css-modules`,
       options: {
@@ -39,8 +33,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/courses/`,
         name: 'markdown-pages',
+        path: `${__dirname}/src/courses/`,
       },
     },
     {
@@ -56,9 +50,6 @@ module.exports = {
           {
             resolve: 'gatsby-remark-images',
             options: {
-              // It's important to specify the maxWidth (in pixels) of
-              // the content container as this plugin uses this as the
-              // base for generating different widths of each image.
               maxWidth: 1024,
             },
           },
@@ -66,8 +57,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-react-helmet',
-    // `gatsby-plugin-react-next`,
-    // 'gatsby-plugin-preact',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
@@ -81,23 +70,6 @@ module.exports = {
     },
     `gatsby-plugin-netlify-cms`,
     // {
-    //   resolve: `gatsby-plugin-postcss-sass`,
-    //   options: {
-    //     postCssPlugins: [autoprefixer()],
-    //   },
-    // },
-    // {
-    //   resolve: 'gatsby-plugin-purify-css',
-    //   options: {
-    //     /* Defaults */
-    //     styleId: 'gatsby-inlined-css',
-    //     purifyOptions: {
-    //       info: true,
-    //       minify: true,
-    //     },
-    //   },
-    // },
-    // {
     //   resolve: `gatsby-plugin-purgecss`,
     //   options: {
     //     printRejected: false
@@ -105,6 +77,6 @@ module.exports = {
     // },
     // 'gatsby-plugin-offline',
     // 'gatsby-plugin-netlify',
-    // 'gatsby-plugin-size'
+    'gatsby-plugin-size',
   ],
 }
