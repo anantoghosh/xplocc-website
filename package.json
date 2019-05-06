@@ -45,7 +45,7 @@
   },
   "devDependencies": {
     "@types/react-helmet": "^5.0.8",
-    "@types/webpack": "^4.4.30",
+    "@types/webpack": "^4.4.31",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.2.0",
     "eslint-config-problems": "^2.0.0",
