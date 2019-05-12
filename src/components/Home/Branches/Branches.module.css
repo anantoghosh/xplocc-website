@@ -1,16 +1,16 @@
 .Branches {
   display: grid;
-  grid-template-columns: 3fr 2fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 3fr 2fr;
+  grid-template-rows: repeat(6, 1fr);
   grid-template-areas:
-    'title .'
-    'title .'
-    'title .'
-    'title .'
-    'title .'
-    'title .'
-    'title .'
-    'title .';
+    'left title right'
+    'left title right'
+    'left title right'
+    'left title right'
+    'left title right'
+    'left title right'
+    'left title right'
+    'left title right';
 }
 
 .titleBlock {
@@ -23,6 +23,8 @@
   background-size: 277px;
   background-position: left calc(100% + 78px);
   background-repeat: no-repeat;
+  margin-right: -1px;
+  margin-left: -1px;
 }
 
 .title {
@@ -33,6 +35,7 @@
 }
 
 .link {
+  display: block;
   padding: 24px 64px;
   text-align: right;
   color: #fff;
@@ -40,10 +43,37 @@
   font-size: 1.5em;
   clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
   transition: transform 0.3s;
+  /* border: 1px solid #e8e8e8; */
+  margin-right: 5px;
+}
+
+.linkReverse {
+  display: block;
+  padding: 24px 64px;
+  text-align: left;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  clip-path: polygon(0 0, 10% 100%, 100% 100%, 100% 0%);
+  transition: transform 0.3s;
+  /* border: 1px solid #e8e8e8; */
+  margin-left: 5px;
+}
+
+.left {
+  grid-area: left;
+}
+
+.right {
+  grid-area: right;
 }
 
 .link:hover {
   transform: translateX(-20px);
+}
+
+.linkReverse:hover {
+  transform: translateX(20px);
 }
 
 .color1 {

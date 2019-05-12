@@ -12,17 +12,32 @@ const Branches = () => {
           Find the course you are most interested in
         </h3>
       </div>
-      {branchesList.map(branch => {
-        return (
-          <Link
-            className={`${styles.link} ${styles.color1} title`}
-            key={branch.url}
-            to={`/courses/${branch.url}/`}
-          >
-            {branch.title}
-          </Link>
-        )
-      })}
+      <div className={styles.left}>
+        {branchesList.slice(0, 6).map(branch => {
+          return (
+            <Link
+              className={`${styles.color1} ${styles.linkReverse} title`}
+              key={branch.url}
+              to={`/courses/${branch.url}/`}
+            >
+              {branch.title}
+            </Link>
+          )
+        })}
+      </div>
+      <div className={styles.right}>
+        {branchesList.slice(6, 12).map(branch => {
+          return (
+            <Link
+              className={`${styles.link} ${styles.color1} title`}
+              key={branch.url}
+              to={`/courses/${branch.url}/`}
+            >
+              {branch.title}
+            </Link>
+          )
+        })}
+      </div>
       {/* <Link
         className={`${styles.link} ${styles.color1} title`}
         to="/courses/chemical-engineering/"
