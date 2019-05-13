@@ -8,7 +8,6 @@ duration: 150 Hours
 image: /img/vm-ware.jpg
 file: ''
 ---
-## VMware
 _VMware is software company renowned in the field of system virtualization and cloud computing. It was founded in 1998 and is supplementary of Dell Technologies. This software enables all users to create numerous virtual environments or computer systems on a single computer or server. VMware is especially useful for businesses to set up multiple server systems without any need to purchase separate hardware for each of them. All of the VMs share the resources on the same physical server, such as networking and RAM. VMware ESX was the second product introduced by the company in 2001._
 
 ## Scope & Significance of VMware
