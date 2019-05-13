@@ -1,7 +1,7 @@
 ---
 title: Hyper V
 branch: cloud-technologies
-slug: Hyper V
+slug: hyper-v
 type: course
 code: HYPVCT
 duration: 50 Hours
