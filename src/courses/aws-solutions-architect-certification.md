@@ -5,7 +5,7 @@ slug: AWS
 type: course
 code: AWSXCT
 duration: 50 Hours
-image: /images/default.jpg
+image: /img/aws.jpg
 file: ''
 ---
 _Amazon Web Services is a cash cow for an organization. AWS provides a vast set of database, storage, deployment services and applications that can help a company to move faster and also reduce their IT costs. It was launched in 2006 by Amazon.com to handle its online retail operations._
