@@ -8,7 +8,6 @@ duration: 50 Hours
 image: /img/ms_azure.jpg
 file: ''
 ---
-## Microsoft Azure
 
 _Microsoft Azure was also known as Windows Azure. It caters with an array of cloud services, which includes storage, networking and analytics. Microsoft Azure helps add cloud capabilities to your existing network through its service as a platform model._
 
