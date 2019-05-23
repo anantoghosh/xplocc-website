@@ -48,7 +48,7 @@
     "@types/webpack": "^4.4.32",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.3.0",
-    "eslint-config-problems": "^2.0.0",
+    "eslint-config-problems": "^3.0.0",
     "eslint-plugin-react": "^7.13.0",
     "husky": "^2.3.0",
     "lint-staged": "^8.1.7",
