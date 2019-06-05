@@ -1803,7 +1803,7 @@ auto-bind@^2.0.0:
   dependencies:
     "@types/react" "^16.8.12"
 
-autoprefixer@^9.4.3, autoprefixer@^9.6.0:
+autoprefixer@^9.6.0:
   version "9.6.0"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-9.6.0.tgz#0111c6bde2ad20c6f17995a33fad7cf6854b4c87"
   integrity sha512-kuip9YilBqhirhHEGHaBTZKXL//xxGnzvsD0FtBQa6z+A69qZD6s/BAX9VzDF1i9VKDquTJDQaPLSEhOnL6FvQ==
@@ -5756,10 +5756,10 @@ gatsby-transformer-sharp@^2.1.21:
     semver "^5.6.0"
     sharp "^0.22.1"
 
-gatsby@^2.8.2:
-  version "2.8.2"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.8.2.tgz#f76d21faf94dedfe8d6159c4cd1ba616fe9bc775"
-  integrity sha512-0JzVbcQEzojLN8lYwIGYByftYuiLVwb9g8+6jJY0ytxQnmi1YIxv43OWlHXoOknJiChFWc3BV6Q2cI1dTHPcqA==
+gatsby@^2.8.3:
+  version "2.8.3"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.8.3.tgz#836027094fb4a61972de076c7f4e74ae59c1e0da"
+  integrity sha512-IO07W2B1rKTSHQZxrdDEUV5vw1HHE/lKMHphCk545cITOTtujid96q8JeyO4ZNLzjc4hfdc/5QUW5GFS5VzRHw==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
@@ -5773,7 +5773,7 @@ gatsby@^2.8.2:
     "@reach/router" "^1.1.1"
     "@stefanprobst/lokijs" "^1.5.6-b"
     address "1.0.3"
-    autoprefixer "^9.4.3"
+    autoprefixer "^9.6.0"
     babel-core "7.0.0-bridge.0"
     babel-eslint "^9.0.0"
     babel-loader "^8.0.0"
