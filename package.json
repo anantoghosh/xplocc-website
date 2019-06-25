@@ -50,7 +50,7 @@
     "eslint-config-prettier": "^5.0.0",
     "eslint-config-problems": "^3.0.1",
     "eslint-plugin-react": "^7.14.0",
-    "husky": "^2.4.1",
+    "husky": "^2.5.0",
     "lint-staged": "^8.2.1",
     "plop": "^2.4.0",
     "prettier": "^1.18.2",
