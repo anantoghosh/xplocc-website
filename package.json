@@ -24,7 +24,7 @@
     "gatsby-transformer-sharp": "^2.2.5",
     "netlify-cms-app": "^2.9.7",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
     "react-obfuscate": "^3.6.2",
     "size-plugin": "^1.2.0"
