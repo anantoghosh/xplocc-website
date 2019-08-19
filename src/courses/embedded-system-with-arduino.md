@@ -5,7 +5,7 @@ slug: embedded-system-with-arduino
 type: course
 code: ESAREC
 duration: 40 hours
-image: /images/default.jpg
+image: /img/embedded-system-using-arduino.jpg
 file: ''
 ---
 ## About Arduino 
