@@ -44,7 +44,7 @@
     "clean": "gatsby clean"
   },
   "devDependencies": {
-    "@types/react-helmet": "^5.0.9",
+    "@types/react-helmet": "^5.0.10",
     "@types/webpack": "^4.39.1",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^6.3.0",
