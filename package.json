@@ -49,7 +49,7 @@
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^6.3.0",
     "eslint-config-problems": "^3.0.1",
-    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react": "^7.15.0",
     "husky": "^3.0.7",
     "lint-staged": "^9.4.0",
     "plop": "^2.4.0",
