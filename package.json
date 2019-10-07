@@ -27,7 +27,7 @@
     "react-dom": "^16.10.2",
     "react-helmet": "^5.2.1",
     "react-obfuscate": "^3.6.2",
-    "size-plugin": "^1.2.0"
+    "size-plugin": "^2.0.0"
   },
   "keywords": [
     "gatsby"
