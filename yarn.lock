@@ -6148,10 +6148,10 @@ gatsby-plugin-manifest@^2.2.20:
     semver "^5.7.1"
     sharp "^0.23.1"
 
-gatsby-plugin-netlify-cms@^4.1.22:
-  version "4.1.22"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify-cms/-/gatsby-plugin-netlify-cms-4.1.22.tgz#105e3f2aebe4a1610375b6de6cbd2a9a9ed799e3"
-  integrity sha512-9v016hMa/t4klpHr/fNwk8FLBM1cmKRHZMByvuH1WSLki0hbGMm2FkIUWwwGazUww04MfaOWGyLVpxD8eQIbyQ==
+gatsby-plugin-netlify-cms@^4.1.24:
+  version "4.1.24"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify-cms/-/gatsby-plugin-netlify-cms-4.1.24.tgz#b79f0085450a090a2830234ed57f7747080bc7d3"
+  integrity sha512-ATZV6dlw8apoJQ/ZqGRsmHylH5Z4Qxhzhah5A4MiiK15Ru/OOrD2LCcSHCwYSiouHB4G50oUNjQa5M3+tBKEdg==
   dependencies:
     "@pieh/friendly-errors-webpack-plugin" "1.7.0-chalk-2"
     html-webpack-exclude-assets-plugin "^0.0.7"
@@ -6159,7 +6159,7 @@ gatsby-plugin-netlify-cms@^4.1.22:
     lodash "^4.17.15"
     mini-css-extract-plugin "^0.8.0"
     netlify-identity-widget "^1.5.5"
-    webpack "^4.41.0"
+    webpack "^4.41.1"
 
 gatsby-plugin-netlify@^2.1.17:
   version "2.1.17"
@@ -15423,10 +15423,10 @@ webpack-stats-plugin@^0.3.0:
   resolved "https://registry.yarnpkg.com/webpack-stats-plugin/-/webpack-stats-plugin-0.3.0.tgz#6952f63feb9a5393a328d774fb3eccac78d2f51b"
   integrity sha512-4a6mEl9HLtMukVjEPY8QPCSmtX2EDFJNhDTX5ZE2CLch2adKAZf53nUrpG6m7NattwigS0AodNcwNxlu9kMSDQ==
 
-webpack@^4.41.0, webpack@~4.41.0:
-  version "4.41.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.41.0.tgz#db6a254bde671769f7c14e90a1a55e73602fc70b"
-  integrity sha512-yNV98U4r7wX1VJAj5kyMsu36T8RPPQntcb5fJLOsMz/pt/WrKC0Vp1bAlqPLkA1LegSwQwf6P+kAbyhRKVQ72g==
+webpack@^4.41.1, webpack@~4.41.0:
+  version "4.41.1"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.41.1.tgz#5388dd3047d680d5d382a84249fd4750e87372fd"
+  integrity sha512-ak7u4tUu/U63sCVxA571IuPZO/Q0pZ9cEXKg+R/woxkDzVovq57uB6L2Hlg/pC8LCU+TWpvtcYwsstivQwMJmw==
   dependencies:
     "@webassemblyjs/ast" "1.8.5"
     "@webassemblyjs/helper-module-context" "1.8.5"
