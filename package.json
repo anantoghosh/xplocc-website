@@ -6,7 +6,7 @@
   "private": true,
   "license": "SEE LICENSE IN LICENSE.md",
   "dependencies": {
-    "autoprefixer": "^9.6.1",
+    "autoprefixer": "^9.6.5",
     "gatsby": "^2.15.28",
     "gatsby-image": "^2.2.24",
     "gatsby-plugin-manifest": "^2.2.20",
