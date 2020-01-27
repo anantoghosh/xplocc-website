@@ -12385,10 +12385,10 @@ react-monaco-editor@^0.25.1:
     monaco-editor "^0.16.0"
     prop-types "^15.7.2"
 
-react-obfuscate@^3.6.2:
-  version "3.6.2"
-  resolved "https://registry.yarnpkg.com/react-obfuscate/-/react-obfuscate-3.6.2.tgz#f237480ad132b7e08bb691a5f0e884f54693ca3c"
-  integrity sha512-CESIFj8pcsSpyGuZUXJ0dygiFdYYj8qbmAHNSh/yyBICUvGf1DnggQPs/P1jEciVaq7AfSaziPmR/65m/ZRHjg==
+react-obfuscate@^3.6.6:
+  version "3.6.6"
+  resolved "https://registry.yarnpkg.com/react-obfuscate/-/react-obfuscate-3.6.6.tgz#03a15005c1b2e13f1d102051a251f8dfba0fa706"
+  integrity sha512-ZbQ0Qr1JtoSENXu+rZ3lDLgHM7qRaguM5WCwgr2XxzIrFssytjcIP+X0uc5jlWBuDqAjZbkSa3M7PveLBcefcA==
 
 react-onclickoutside@^6.5.0:
   version "6.8.0"
