@@ -51,7 +51,7 @@
     "eslint-config-problems": "^3.1.0",
     "eslint-plugin-react": "^7.18.0",
     "husky": "^4.2.1",
-    "lint-staged": "^10.0.0",
+    "lint-staged": "^10.0.2",
     "plop": "^2.5.3",
     "prettier": "^1.19.1",
     "typed-css-modules-loader": "^0.0.18",
