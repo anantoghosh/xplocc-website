@@ -52,7 +52,7 @@
     "eslint-plugin-react": "^7.18.3",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.7",
-    "plop": "^2.5.3",
+    "plop": "^2.5.4",
     "prettier": "^1.19.1",
     "typed-css-modules-loader": "^0.0.18",
     "typescript": "^3.8.2",
