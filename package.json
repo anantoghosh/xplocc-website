@@ -53,7 +53,7 @@
     "husky": "^4.2.3",
     "lint-staged": "^10.0.8",
     "plop": "^2.6.0",
-    "prettier": "^1.19.1",
+    "prettier": "^2.0.1",
     "typed-css-modules-loader": "^0.0.18",
     "typescript": "^3.8.3",
     "webpack-bundle-size-analyzer": "^3.1.0"
