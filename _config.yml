@@ -1,1 +1,3 @@
 remote_theme: pmarsceill/just-the-docs
+search.button: true
+search.heading_level: 6
